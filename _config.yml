@@ -1,6 +1,6 @@
 # main text of home
 name: Claus Horn
-bio: Physicist, Lecturer and Researcher in Data Science and AI
+bio: Physicist and data scientist, lecturer and writer
 
 # twitter summary info
 description: My thoughts on Data Science and AI
@@ -70,7 +70,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
