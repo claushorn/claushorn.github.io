@@ -5,6 +5,9 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <header>
-	{% include social-links.html %}
+    <p class="extra">
+        {% include social-links.html %}
+
+    </p>
 </header>
 

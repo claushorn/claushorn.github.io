@@ -5,7 +5,7 @@
     or page.title == "Teaching"
     or page.title == "Community"
     or page.title == "Research"
-%}{% assign showHeader2 = true %}{% endif %}
+%}{% assign showMinHeader = true %}{% endif %}
 
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
@@ -29,7 +29,6 @@
 {% if showMinHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
         <h1 class="title">{{ page.title }}</h1>
-        {% include social-links.html %}
     </header>
 {% endif %}
 
